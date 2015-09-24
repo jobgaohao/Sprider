@@ -32,7 +32,7 @@ namespace Sprider
             var crawler = new Crawler(url);
             Console.WriteLine("开始下载");
             crawler.DownLoad();
-            //show 一下我们爬到的链接
+            //show 一下我们爬到的链接地址
             foreach (var item in Crawler.visited)
             {
                 Console.WriteLine(item);
